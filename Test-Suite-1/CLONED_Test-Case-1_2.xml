@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="93948145-195a-4943-86ba-3a780c2f7eae" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase id="de701179-bc2c-446f-b35f-ce185a9564a4" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="CLONED_Test Case 1_2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
-    <con:setting id="93948145-195a-4943-86ba-3a780c2f7eaefileName">Test-Case-1</con:setting>
+    <con:setting id="de701179-bc2c-446f-b35f-ce185a9564a4fileName">CLONED_Test-Case-1_2</con:setting>
   </con:settings>
-  <con:testStep type="restrequest" name="Login - Request 1" id="7d39d248-854b-4bea-a05e-1d96cb285b8f">
+  <con:testStep type="restrequest" name="Login - Request 1" id="e2bb4e05-3b82-47ce-a98d-dc801e630829">
     <con:settings/>
     <con:config service="https://cloud.bitbar.com" resourcePath="/cloud/api/v2/user-sessions/login" methodName="Login" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:restRequest name="Login - Request 1" id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" postQueryString="false">
@@ -36,7 +36,7 @@
       </con:restRequest>
     </con:config>
   </con:testStep>
-  <con:testStep type="restrequest" name="Login - Request 2" id="a42d936d-3233-4b63-a377-66a24dc55365">
+  <con:testStep type="restrequest" name="Login - Request 2" id="39e1fc11-e2d3-4d51-8384-d806e93f0c49">
     <con:settings/>
     <con:config service="https://cloud.bitbar.com" resourcePath="/cloud/api/v2/user-sessions/login" methodName="Login" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:restRequest name="Login - Request 2" id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" postQueryString="false">
