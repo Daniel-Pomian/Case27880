@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="AppSettings.json" path="/appSettings.json" id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289fileName">AppSettings.json</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="AppSettings.json" id="779ff6d6-1d3d-4a76-89e1-42b29d9bbfb2" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:app="https://cloud.bitbar.com/appSettings.json">app:Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="a0a5278a-043a-47e3-8641-637452e2966d" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+      </con:settings>
+      <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://cloud.bitbar.com/appSettings.json</con:originalUri>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

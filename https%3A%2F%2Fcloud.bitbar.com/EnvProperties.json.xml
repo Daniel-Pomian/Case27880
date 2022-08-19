@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="EnvProperties.json" path="/envProperties.json" id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8f" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8ffileName">EnvProperties.json</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="EnvProperties.json" id="a7107355-217a-410f-b011-3e1908397f82" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="53e28922-e422-4d3b-93cc-9fe13afb9fea" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+      </con:settings>
+      <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://cloud.bitbar.com/envProperties.json</con:originalUri>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

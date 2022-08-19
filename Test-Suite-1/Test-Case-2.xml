@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="6015afd3-c538-411d-aed8-19cf132b5a2b" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Test Case 2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="6015afd3-c538-411d-aed8-19cf132b5a2bfileName">Test-Case-2</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="- Request 1" id="f06e6e69-964e-4946-8a9a-7384e9c7c783">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="- Request 1" id="47325177-f8cd-412b-b611-7c859b04a04a" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-3b9&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Main~e2e93592.a2648e7172db83986c77.js - Request 1" id="3765ccde-9555-4f39-91e0-6acc836cf7d4">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/main~e2e93592.a2648e7172db83986c77.js" methodName="Main~e2e93592.a2648e7172db83986c77.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Main~e2e93592.a2648e7172db83986c77.js - Request 1" id="8a11db43-5c48-4f0e-96ca-8099346c6ec2" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-56ce5&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/main~e2e93592.a2648e7172db83986c77.js</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Main~db300d2f.a2648e7172db83986c77.js - Request 1" id="6b4e50b3-7dd6-48e2-b140-e9725ba4672f">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/main~db300d2f.a2648e7172db83986c77.js" methodName="Main~db300d2f.a2648e7172db83986c77.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Main~db300d2f.a2648e7172db83986c77.js - Request 1" id="586e9d48-707f-455e-b9b3-7355943182ec" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-3a922&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/main~db300d2f.a2648e7172db83986c77.js</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Main~2a42e354.a2648e7172db83986c77.js - Request 1" id="ab41f8ab-cecc-4858-8aa9-f74474168589">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/main~2a42e354.a2648e7172db83986c77.js" methodName="Main~2a42e354.a2648e7172db83986c77.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Main~2a42e354.a2648e7172db83986c77.js - Request 1" id="7c36d9b1-6d37-464c-8e92-9c3e3502f3e4" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-22b57&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/main~2a42e354.a2648e7172db83986c77.js</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Main~ec8c427e.a2648e7172db83986c77.js - Request 1" id="181a70b5-aeaf-41b9-bf0a-0be91e05886d">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/main~ec8c427e.a2648e7172db83986c77.js" methodName="Main~ec8c427e.a2648e7172db83986c77.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Main~ec8c427e.a2648e7172db83986c77.js - Request 1" id="dbe4387b-017e-453b-a81d-a9b80039d89b" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-7dd3&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/main~ec8c427e.a2648e7172db83986c77.js</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Main.js - Request 1" id="56c95033-3da6-480f-b216-ecafcc51ac5b">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/main.js" methodName="Main.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Main.js - Request 1" id="ff668b05-9d84-47d8-a769-0532a3dd98ff" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-92b36&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/main.js</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Main~cfbf0a2e.a2648e7172db83986c77.js - Request 1" id="e4f92b78-f001-45fc-9459-8a0b602aeb8d">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/main~cfbf0a2e.a2648e7172db83986c77.js" methodName="Main~cfbf0a2e.a2648e7172db83986c77.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Main~cfbf0a2e.a2648e7172db83986c77.js - Request 1" id="70ba87ea-73e0-4c75-a9ae-fa0efd717a51" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-288a8&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/main~cfbf0a2e.a2648e7172db83986c77.js</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Worker.js - Request 1" id="c38db200-dfaa-44d8-a109-f7a84f28a139">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/worker.js" methodName="Worker.js" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Worker.js - Request 1" id="5e9825bd-2b97-423d-85a1-39ffa62fe3a5" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-e59&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/worker.js</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="A7905cd2902a2cc0c14e920779b7c2e8.css - Request 1" id="6431ab6e-450c-47f5-8b23-f3b570503a97">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/a7905cd2902a2cc0c14e920779b7c2e8.css" methodName="A7905cd2902a2cc0c14e920779b7c2e8.css" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="A7905cd2902a2cc0c14e920779b7c2e8.css - Request 1" id="a4c5aa76-1f45-4884-9e82-bd0c9c00375d" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-19097&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="text/css,*/*;q=0.1"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/a7905cd2902a2cc0c14e920779b7c2e8.css</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="EnvProperties.json - Request 1" id="0c3b4e43-56a4-4b1c-a9bf-351e256e62c4">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/envProperties.json" methodName="EnvProperties.json" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="EnvProperties.json - Request 1" id="53e28922-e422-4d3b-93cc-9fe13afb9fea" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/envProperties.json</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="AppSettings.json - Request 1" id="554790db-4952-4f3d-961e-73e3d4ec4374">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/appSettings.json" methodName="AppSettings.json" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="AppSettings.json - Request 1" id="a0a5278a-043a-47e3-8641-637452e2966d" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/appSettings.json</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

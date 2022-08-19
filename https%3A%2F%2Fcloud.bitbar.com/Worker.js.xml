@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Worker.js" path="/worker.js" id="beb3a2a9-789c-4ee0-9236-26c37916f5e6" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="beb3a2a9-789c-4ee0-9236-26c37916f5e6fileName">Worker.js</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Worker.js" id="29dd8384-7544-45a0-9cef-3daa6fb3f4a3" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="5e9825bd-2b97-423d-85a1-39ffa62fe3a5" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-e59&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+      </con:settings>
+      <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://cloud.bitbar.com/worker.js</con:originalUri>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

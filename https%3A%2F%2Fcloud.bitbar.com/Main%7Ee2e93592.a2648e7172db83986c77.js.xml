@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Main~e2e93592.a2648e7172db83986c77.js" path="/main~e2e93592.a2648e7172db83986c77.js" id="63b5e564-d610-4751-80ee-48cebc4c8311" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="63b5e564-d610-4751-80ee-48cebc4c8311fileName">Main%7Ee2e93592.a2648e7172db83986c77.js</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Main~e2e93592.a2648e7172db83986c77.js" id="759b308c-94dc-4daa-86e7-64b218c5f351" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <con:status>304</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="8a11db43-5c48-4f0e-96ca-8099346c6ec2" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-56ce5&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+      </con:settings>
+      <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://cloud.bitbar.com/main~e2e93592.a2648e7172db83986c77.js</con:originalUri>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

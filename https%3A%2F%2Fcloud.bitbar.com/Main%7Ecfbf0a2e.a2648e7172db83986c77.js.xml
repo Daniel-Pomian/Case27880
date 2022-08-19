@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Main~cfbf0a2e.a2648e7172db83986c77.js" path="/main~cfbf0a2e.a2648e7172db83986c77.js" id="62f796aa-3bfc-414b-8228-4674ae1d45c3" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="62f796aa-3bfc-414b-8228-4674ae1d45c3fileName">Main%7Ecfbf0a2e.a2648e7172db83986c77.js</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Main~cfbf0a2e.a2648e7172db83986c77.js" id="859a845d-a482-4ee0-8556-d0c714a39bfc" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="70ba87ea-73e0-4c75-a9ae-fa0efd717a51" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="If-None-Match" value="W/&quot;62fb688b-288a8&quot;"/>
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="Accept" value="*/*"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Referer" value="https://cloud.bitbar.com/"/>
+  <con:entry key="If-Modified-Since" value="Tue, 16 Aug 2022 09:51:07 GMT"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+</xml-fragment>]]></con:setting>
+      </con:settings>
+      <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://cloud.bitbar.com/main~cfbf0a2e.a2648e7172db83986c77.js</con:originalUri>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
