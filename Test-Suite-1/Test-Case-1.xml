@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="93948145-195a-4943-86ba-3a780c2f7eae" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="93948145-195a-4943-86ba-3a780c2f7eaefileName">Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Login - Request 1" id="7d39d248-854b-4bea-a05e-1d96cb285b8f">
+    <con:settings/>
+    <con:config service="https://cloud.bitbar.com" resourcePath="/cloud/api/v2/user-sessions/login" methodName="Login" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Login - Request 1" id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" postQueryString="false">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+  <con:entry key="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+</xml-fragment>]]></con:setting>
+          <con:setting id="com.eviware.soapui.support.editor.views.xml.form2.FormEditorView@ViewType">All</con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/cloud/api/v2/user-sessions/login</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="password" value=""/>
+          <con:entry key="username" value=""/>
+        </con:parameters>
+        <con:parameterOrder>
+          <con:entry>username</con:entry>
+          <con:entry>password</con:entry>
+        </con:parameterOrder>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

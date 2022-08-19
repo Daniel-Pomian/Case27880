@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Login" path="/cloud/api/v2/user-sessions/login" id="6eefa9eb-2ef8-4a8d-92f8-d7a4f2ab3d33" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="6eefa9eb-2ef8-4a8d-92f8-d7a4f2ab3d33fileName">Login</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Login" id="6f29d163-4d17-4a81-888b-4ce9b23cc7d9" method="POST">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>username</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>password</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="FAULT">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>401</con:status>
+      <con:params/>
+      <con:element xmlns:log="https://cloud.bitbar.com/cloud/api/v2/user-sessions/login">log:Fault</con:element>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:log="https://cloud.bitbar.com/cloud/api/v2/user-sessions/login">log:Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+  <con:entry key="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+</xml-fragment>]]></con:setting>
+      </con:settings>
+      <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://cloud.bitbar.com/cloud/api/v2/user-sessions/login</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="password" value="Equitable2020"/>
+        <con:entry key="username" value="QAToolsAdmin@equitable.ca"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>username</con:entry>
+        <con:entry>password</con:entry>
+      </con:parameterOrder>
+    </con:request>
+  </con:method>
+</con:resource>
