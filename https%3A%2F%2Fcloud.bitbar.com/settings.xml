@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:RestService" id="d0341b45-3570-4ef6-99e9-f7e84992f0b3" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://cloud.bitbar.com" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<con:interface xsi:type="con:RestService" id="d0341b45-3570-4ef6-99e9-f7e84992f0b3" name="https://cloud.bitbar.com" type="rest" wadlVersion="http://wadl.dev.java.net/2009/02" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <con:settings>
     <con:setting id="d0341b45-3570-4ef6-99e9-f7e84992f0b3fileName">https%3A%2F%2Fcloud.bitbar.com</con:setting>
   </con:settings>
-  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:definitionCache rootPart="" type="TEXT"/>
   <con:endpoints>
     <con:endpoint>https://cloud.bitbar.com</con:endpoint>
   </con:endpoints>

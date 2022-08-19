@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="A7905cd2902a2cc0c14e920779b7c2e8.css" path="/a7905cd2902a2cc0c14e920779b7c2e8.css" id="751be453-678b-4282-8a1c-f1a70138397e" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="751be453-678b-4282-8a1c-f1a70138397e" name="A7905cd2902a2cc0c14e920779b7c2e8.css" path="/a7905cd2902a2cc0c14e920779b7c2e8.css" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="751be453-678b-4282-8a1c-f1a70138397efileName">A7905cd2902a2cc0c14e920779b7c2e8.css</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="A7905cd2902a2cc0c14e920779b7c2e8.css" id="2cb4468b-cc5b-4971-ba7f-12ec9c5f1536" method="GET">
+  <con:method id="2cb4468b-cc5b-4971-ba7f-12ec9c5f1536" method="GET" name="A7905cd2902a2cc0c14e920779b7c2e8.css">
     <con:settings/>
     <con:parameters/>
-    <con:request name="Request 1" id="a4c5aa76-1f45-4884-9e82-bd0c9c00375d" mediaType="application/json">
+    <con:request id="a4c5aa76-1f45-4884-9e82-bd0c9c00375d" mediaType="application/json" name="Request 1">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="If-None-Match" value="W/&quot;62fb688b-19097&quot;"/>
@@ -23,6 +23,10 @@
       <con:endpoint>https://cloud.bitbar.com</con:endpoint>
       <con:request/>
       <con:originalUri>https://cloud.bitbar.com/a7905cd2902a2cc0c14e920779b7c2e8.css</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

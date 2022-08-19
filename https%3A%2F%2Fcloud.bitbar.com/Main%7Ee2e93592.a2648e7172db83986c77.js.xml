@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="Main~e2e93592.a2648e7172db83986c77.js" path="/main~e2e93592.a2648e7172db83986c77.js" id="63b5e564-d610-4751-80ee-48cebc4c8311" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="63b5e564-d610-4751-80ee-48cebc4c8311" name="Main~e2e93592.a2648e7172db83986c77.js" path="/main~e2e93592.a2648e7172db83986c77.js" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="63b5e564-d610-4751-80ee-48cebc4c8311fileName">Main%7Ee2e93592.a2648e7172db83986c77.js</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="Main~e2e93592.a2648e7172db83986c77.js" id="759b308c-94dc-4daa-86e7-64b218c5f351" method="GET">
+  <con:method id="759b308c-94dc-4daa-86e7-64b218c5f351" method="GET" name="Main~e2e93592.a2648e7172db83986c77.js">
     <con:settings/>
     <con:parameters/>
     <con:representation type="RESPONSE">
-      <con:mediaType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <con:mediaType/>
       <con:status>304</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
-    <con:request name="Request 1" id="8a11db43-5c48-4f0e-96ca-8099346c6ec2" mediaType="application/json">
+    <con:request id="8a11db43-5c48-4f0e-96ca-8099346c6ec2" mediaType="application/json" name="Request 1">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="If-None-Match" value="W/&quot;62fb688b-56ce5&quot;"/>
@@ -29,6 +29,10 @@
       <con:endpoint>https://cloud.bitbar.com</con:endpoint>
       <con:request/>
       <con:originalUri>https://cloud.bitbar.com/main~e2e93592.a2648e7172db83986c77.js</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

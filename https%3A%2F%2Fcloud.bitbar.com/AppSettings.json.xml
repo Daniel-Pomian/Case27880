@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="AppSettings.json" path="/appSettings.json" id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289" name="AppSettings.json" path="/appSettings.json" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289fileName">AppSettings.json</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="AppSettings.json" id="779ff6d6-1d3d-4a76-89e1-42b29d9bbfb2" method="GET">
+  <con:method id="779ff6d6-1d3d-4a76-89e1-42b29d9bbfb2" method="GET" name="AppSettings.json">
     <con:settings/>
     <con:parameters/>
     <con:representation type="RESPONSE">
       <con:mediaType>application/json</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:app="https://cloud.bitbar.com/appSettings.json">app:Response</con:element>
+      <con:element>app:Response</con:element>
     </con:representation>
-    <con:request name="Request 1" id="a0a5278a-043a-47e3-8641-637452e2966d" mediaType="application/json">
+    <con:request id="a0a5278a-043a-47e3-8641-637452e2966d" mediaType="application/json" name="Request 1">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
@@ -27,6 +27,10 @@
       <con:endpoint>https://cloud.bitbar.com</con:endpoint>
       <con:request/>
       <con:originalUri>https://cloud.bitbar.com/appSettings.json</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

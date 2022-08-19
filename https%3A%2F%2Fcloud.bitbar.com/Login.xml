@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="Login" path="/cloud/api/v2/user-sessions/login" id="6eefa9eb-2ef8-4a8d-92f8-d7a4f2ab3d33" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="6eefa9eb-2ef8-4a8d-92f8-d7a4f2ab3d33" name="Login" path="/cloud/api/v2/user-sessions/login" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="6eefa9eb-2ef8-4a8d-92f8-d7a4f2ab3d33fileName">Login</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="Login" id="6f29d163-4d17-4a81-888b-4ce9b23cc7d9" method="POST">
+  <con:method id="6f29d163-4d17-4a81-888b-4ce9b23cc7d9" method="POST" name="Login">
     <con:settings/>
     <con:parameters>
       <con:parameter required="true">
@@ -24,7 +24,7 @@
       <con:mediaType>application/json</con:mediaType>
       <con:status>401</con:status>
       <con:params/>
-      <con:element xmlns:log="https://cloud.bitbar.com/cloud/api/v2/user-sessions/login">log:Fault</con:element>
+      <con:element>log:Fault</con:element>
     </con:representation>
     <con:representation type="REQUEST">
       <con:mediaType>application/json</con:mediaType>
@@ -34,9 +34,9 @@
       <con:mediaType>application/json</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:log="https://cloud.bitbar.com/cloud/api/v2/user-sessions/login">log:Response</con:element>
+      <con:element>log:Response</con:element>
     </con:representation>
-    <con:request name="Request 1" id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" postQueryString="false">
+    <con:request id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" name="Request 1" postQueryString="false">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
@@ -50,6 +50,7 @@
       <con:request/>
       <con:originalUri>https://cloud.bitbar.com/cloud/api/v2/user-sessions/login</con:originalUri>
       <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>

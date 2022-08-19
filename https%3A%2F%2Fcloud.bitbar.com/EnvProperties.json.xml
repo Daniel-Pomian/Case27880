@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="EnvProperties.json" path="/envProperties.json" id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8f" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8f" name="EnvProperties.json" path="/envProperties.json" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8ffileName">EnvProperties.json</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="EnvProperties.json" id="a7107355-217a-410f-b011-3e1908397f82" method="GET">
+  <con:method id="a7107355-217a-410f-b011-3e1908397f82" method="GET" name="EnvProperties.json">
     <con:settings/>
     <con:parameters/>
-    <con:request name="Request 1" id="53e28922-e422-4d3b-93cc-9fe13afb9fea" mediaType="application/json">
+    <con:request id="53e28922-e422-4d3b-93cc-9fe13afb9fea" mediaType="application/json" name="Request 1">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
@@ -21,6 +21,10 @@
       <con:endpoint>https://cloud.bitbar.com</con:endpoint>
       <con:request/>
       <con:originalUri>https://cloud.bitbar.com/envProperties.json</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
