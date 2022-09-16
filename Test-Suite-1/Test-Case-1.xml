@@ -25,10 +25,7 @@
           <con:authType>No Authorization</con:authType>
         </con:credentials>
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
-        <con:parameters>
-          <con:entry key="password" value=""/>
-          <con:entry key="username" value=""/>
-        </con:parameters>
+        <con:parameters><con:entry key="password" value=""/><con:entry key="username" value="testname"/></con:parameters>
         <con:parameterOrder>
           <con:entry>username</con:entry>
           <con:entry>password</con:entry>
