@@ -3,8 +3,8 @@
   <con:settings>
     <con:setting id="d0341b45-3570-4ef6-99e9-f7e84992f0b3fileName">https%3A%2F%2Fcloud.bitbar.com</con:setting>
   </con:settings>
-  <con:definitionCache rootPart="" type="TEXT"/>
-  <con:endpoints>
+  
+  <con:definitionCache type="TEXT"/><con:endpoints>
     <con:endpoint>https://cloud.bitbar.com</con:endpoint>
   </con:endpoints>
 </con:interface>
