@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289" name="AppSettings.json" path="/appSettings.json" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289" name="AppSettings.json" path="/appSettings.json" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="0f0b48d8-3ae2-45b8-bc9d-c4cdacbb7289fileName">AppSettings.json</con:setting>
   </con:settings>

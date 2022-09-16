@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource id="88aa569a-18bd-4059-ac71-c0fb00100c5f" name="Main~db300d2f.a2648e7172db83986c77.js" path="/main~db300d2f.a2648e7172db83986c77.js" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="88aa569a-18bd-4059-ac71-c0fb00100c5f" name="Main~db300d2f.a2648e7172db83986c77.js" path="/main~db300d2f.a2648e7172db83986c77.js" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="88aa569a-18bd-4059-ac71-c0fb00100c5ffileName">Main%7Edb300d2f.a2648e7172db83986c77.js</con:setting>
   </con:settings>

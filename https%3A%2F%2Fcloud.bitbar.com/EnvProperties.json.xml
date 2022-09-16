@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8f" name="EnvProperties.json" path="/envProperties.json" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8f" name="EnvProperties.json" path="/envProperties.json" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="e6ce3014-3a30-40ce-b2ce-bfd6648aab8ffileName">EnvProperties.json</con:setting>
   </con:settings>

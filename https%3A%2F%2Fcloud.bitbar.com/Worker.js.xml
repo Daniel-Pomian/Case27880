@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource id="beb3a2a9-789c-4ee0-9236-26c37916f5e6" name="Worker.js" path="/worker.js" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="beb3a2a9-789c-4ee0-9236-26c37916f5e6" name="Worker.js" path="/worker.js" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="beb3a2a9-789c-4ee0-9236-26c37916f5e6fileName">Worker.js</con:setting>
   </con:settings>
