@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="53fe6916-5428-456d-b5d6-21fefaff172d" keepSession="false" name="Test Case 1 2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="53fe6916-5428-456d-b5d6-21fefaff172d" keepSession="false" name="Test Case 1 2-RenamedAfter-1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     
-  <con:setting id="53fe6916-5428-456d-b5d6-21fefaff172dfileName">Test-Case-1-2</con:setting></con:settings>
+  <con:setting id="53fe6916-5428-456d-b5d6-21fefaff172dfileName">Test-Case-1-2-RenamedAfter-1</con:setting></con:settings>
   <con:testStep id="c64d95e8-8cb5-475e-9135-38a5b59d2be8" name="Login - Request 1" type="restrequest">
     <con:settings/>
     <con:config xsi:type="con:RestRequestStep" methodName="Login" resourcePath="/cloud/api/v2/user-sessions/login" service="https://cloud.bitbar.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
