@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="f0673616-95ce-4c2f-aae7-f2f67f1666fe" keepSession="false" name="Test Case 1 2 2Renamed-2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    
+  <con:setting id="f0673616-95ce-4c2f-aae7-f2f67f1666fefileName">Test-Case-1-2-2Renamed-2</con:setting></con:settings>
+  <con:testStep id="543bcc00-ebbc-4ea9-82c8-610c8eb58e9f" name="Login - Request 1" type="restrequest">
+    <con:settings/>
+    <con:config xsi:type="con:RestRequestStep" methodName="Login" resourcePath="/cloud/api/v2/user-sessions/login" service="https://cloud.bitbar.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" name="Login - Request 1" postQueryString="false">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+  <con:entry key="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+</xml-fragment>]]></con:setting>
+          <con:setting id="com.eviware.soapui.support.editor.views.xml.form2.FormEditorView@ViewType">All</con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/cloud/api/v2/user-sessions/login</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters><con:entry key="password" value=""/><con:entry key="username" value="testname"/></con:parameters>
+        <con:parameterOrder>
+          <con:entry>username</con:entry>
+          <con:entry>password</con:entry>
+        </con:parameterOrder>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep id="33076398-a601-4859-81b0-973841951b88" name="Login - Request 2" type="restrequest">
+    <con:settings/>
+    <con:config xsi:type="con:RestRequestStep" methodName="Login" resourcePath="/cloud/api/v2/user-sessions/login" service="https://cloud.bitbar.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest id="111a2241-1aa6-4692-af8e-7d42c2b4ed54" mediaType="application/json" name="Login - Request 2" postQueryString="false">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Accept-Charset" value="ISO-8859-1,utf-8;q=0.7,*;q=0.7"/>
+  <con:entry key="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/612.1 (KHTML, like Gecko) JavaFX/17 Safari/612.1"/>
+  <con:entry key="Accept-Encoding" value="gzip"/>
+  <con:entry key="Accept-Language" value="en-us;q=0.8,en;q=0.7"/>
+  <con:entry key="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+</xml-fragment>]]></con:setting>
+        </con:settings>
+        <con:endpoint>https://cloud.bitbar.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://cloud.bitbar.com/cloud/api/v2/user-sessions/login</con:originalUri>
+        <con:assertion id="99e68711-f0c4-4e10-aad4-29359c35af0e" name="Valid HTTP Status Codes" type="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="password" value="Equitable2020"/>
+          <con:entry key="username" value="QAToolsAdmin@equitable.ca"/>
+        </con:parameters>
+        <con:parameterOrder>
+          <con:entry>username</con:entry>
+          <con:entry>password</con:entry>
+        </con:parameterOrder>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="REST Request" id="e3385324-c7c2-48f9-adce-3924b0dd8a46"><con:settings/><con:config service="https://cloud.bitbar.com" methodName="" resourcePath="/" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="2554d027-5cb1-4210-ab88-3b0b2dfd4276" mediaType="application/json"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://cloud.bitbar.com</con:endpoint><con:request/><con:assertion type="Valid HTTP Status Codes" id="fbb5b99d-54a3-4b96-b7ae-08dc5765e57f" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Response SLA Assertion" id="8210041e-a49e-4732-9248-d4371fb5c152" name="Response SLA"><con:configuration><SLA>200</SLA></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="REST Request657" id="f33e31a4-48c8-4b48-a173-c6b196b00719"><con:settings/><con:config service="https://cloud.bitbar.com" methodName="" resourcePath="/" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request657" id="dce768fa-9778-442d-a607-541f52b50c38" mediaType="application/json"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://cloud.bitbar.com</con:endpoint><con:request/><con:assertion type="Valid HTTP Status Codes" id="88e9d5f0-bb54-47c7-9110-866835ac37a9" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Response SLA Assertion" id="03f20d41-a92d-4e61-a41f-78d8fc40df6b" name="Response SLA"><con:configuration><SLA>200</SLA></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/>
+  <con:reportParameters/>
+</con:testCase>
